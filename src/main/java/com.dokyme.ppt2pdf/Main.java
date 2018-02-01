@@ -1,7 +1,11 @@
 package com.dokyme.ppt2pdf;
 
+import com.itextpdf.text.Document;
+import com.itextpdf.text.Paragraph;
+import com.itextpdf.text.pdf.PdfWriter;
 import org.apache.commons.cli.*;
 
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,10 +22,11 @@ public class Main {
     public static void main(String[] args) {
         Main main = new Main(args);
         main.run();
+//        main.test();
     }
 
     private Main(String[] args) {
-        parseCmdArgs(args);
+//        parseCmdArgs(args);
     }
 
     private void parseCmdArgs(String[] args) {
@@ -64,7 +69,27 @@ public class Main {
     }
 
     private void run() {
-        Convertion convertion = Convertion.build(isVertical, slidesPerPage);
+        Convertion convertion = Convertion.build(true, 3, 2);
+        List<String> input = new ArrayList<>();
+        input.add("test.pptx");
+        convertion.convert(input, "output.pdf");
+    }
+
+    private void test() {
+        try {
+            //Step 1—Create a Document.
+            Document document = new Document();
+            //Step 2—Get a PdfWriter instance.
+            PdfWriter.getInstance(document, new FileOutputStream("createSamplePDF.pdf"));
+            //Step 3—Open the Document.
+            document.open();
+            //Step 4—Add content.
+            document.add(new Paragraph("Hello World"));
+            //Step 5—Close the Document.
+            document.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
 }
