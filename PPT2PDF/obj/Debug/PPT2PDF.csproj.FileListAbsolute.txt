@@ -1,0 +1,11 @@
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\bin\Debug\PPT2PDF.exe.config
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\bin\Debug\PPT2PDF.exe
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\bin\Debug\PPT2PDF.pdb
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\bin\Debug\CommandLine.dll
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\bin\Debug\ShellProgressBar.dll
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\bin\Debug\CommandLine.xml
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\bin\Debug\ShellProgressBar.pdb
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\obj\Debug\PPT2PDF.csprojResolveAssemblyReference.cache
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\obj\Debug\PPT2PDF.csproj.CoreCompileInputs.cache
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\obj\Debug\PPT2PDF.exe
+C:\Users\dokym\Workspace\PPT2PDF\PPT2PDF\obj\Debug\PPT2PDF.pdb
