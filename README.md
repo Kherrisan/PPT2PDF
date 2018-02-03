@@ -6,6 +6,12 @@
 2. 根据文件名和生成之后的pdf中的页码自动生成一个目录。
 3. 可设置每页slide个数等常用参数。
 
+## 必要的环境
+
+1. Windows
+2. .Net Framework 4.0及以上版本
+3. Microsoft Office 2010及以上版本
+
 ## 可选参数
 
     -i, --input-files        Required. Input ppt or pptx files or directory
