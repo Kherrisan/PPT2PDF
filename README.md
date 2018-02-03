@@ -2,7 +2,7 @@
 开卷考试前把PPT转换成PDF的小工具
 
 ## 预计实现的功能
-1. 把多个ppt或pptx合并并转换成一个pdf文件。
+1. 把多个ppt或pptx合并并转换成一个pdf文件（调用MSOffice的API）。
 2. 根据文件名和生成之后的pdf中的页码自动生成一个目录。
 3. 可设置每页slide个数等常用参数。
 
@@ -28,7 +28,17 @@
 
 ## 运行时截图
 
+### 命令行截图
 
+![options](https://github.com/Dokyme/PPT2PDF/raw/master/assets/options.jpg)
+
+![merging](https://github.com/Dokyme/PPT2PDF/raw/master/assets/merging.jpg)
+
+![printing](https://github.com/Dokyme/PPT2PDF/raw/master/assets/printing.jpg)
+
+### 输出质量截图
+
+![quality](https://github.com/Dokyme/PPT2PDF/raw/master/assets/outputQuality.jpg)
 
 ## TODO
 
