@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "PPT2PDF": {
-      "commandName": "Project",
-      "commandLineArgs": "-n 4 1.ppt 2.ppt 3.ppt"
-    }
-  }
-}

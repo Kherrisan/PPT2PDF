@@ -13,7 +13,7 @@ namespace PPT2PDF
         {
             var result = Parser.Default.ParseArguments<Configuration>(args).WithParsed(options =>
             {
-                convertion = Convertion.build(options.number);
+                convertion = Convertion.build(options.frameSlides, options.handout, options.verticalFirst, options.onlyPPT);
                 convertion.convert(options.inputFiles, options.outputFile);
             });
         }
